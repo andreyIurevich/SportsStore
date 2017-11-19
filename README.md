@@ -13,4 +13,12 @@ SportsStore - магазин спортивных товаров.
 `Entity Framework`
 `Asp.net Identity`
 `Bootstrap 3`
+
+## Главная страница
+
+![default](https://user-images.githubusercontent.com/31206217/32991036-57af56d8-cd45-11e7-8559-f059c47cd3ba.PNG)
+
+## Корзина
+
+
   
