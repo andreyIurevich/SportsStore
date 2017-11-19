@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script type="text/javascript" src="@Url.Content("/Scripts/jquery-1.9.0.js")"></script>
+    <style>
+        .container{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--<p style="font-family: 'Dancing Script', cursive; font-size: 50px;" class="text-center" >Sports Store</p>-->
+        <div class="row">
+            <nav>
+                <ul class="pager">
+                    <li><a href="/Product/List">Главная</a></li>
+                    <li><a href="/Admin/Index"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Товары</a></li>
+                    <li><a href="/RoleAdmin/Index"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Пользователи</a></li>
+                    <li><a href="/AdminUsers/Users"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> Роли</a></li>
+                </ul>
+            </nav>
+        </div>
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@model string
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Создание роли";
+}
+
+@Html.ValidationSummary(false)
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Создать роль</h2>
+            @using (Html.BeginForm())
+            {
+                <div class="form-group">
+                    <label>Название</label>
+                    <input name="name" value="@Model" class="form-control" />
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Создать</button>
+                
+                @Html.ActionLink("Отмена", "Index", null, new { @class = "btn btn-default" })
+            }
+        </div>
+    </div>
+</div>
