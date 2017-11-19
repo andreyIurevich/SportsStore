@@ -20,5 +20,5 @@ SportsStore - магазин спортивных товаров.
 
 ## Корзина
 
-
+![default](https://user-images.githubusercontent.com/31206217/32991078-fbb1a006-cd45-11e7-8084-14b54a85033a.PNG)
   
