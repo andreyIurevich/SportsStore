@@ -21,4 +21,10 @@ SportsStore - магазин спортивных товаров.
 ## Корзина
 
 ![default](https://user-images.githubusercontent.com/31206217/32991078-fbb1a006-cd45-11e7-8084-14b54a85033a.PNG)
+
+## Панель администратора (товары)
+
+![default](https://user-images.githubusercontent.com/31206217/32991093-412217f6-cd46-11e7-98fc-c8587f01ad13.PNG)
+
+
   
